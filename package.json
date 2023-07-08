@@ -63,5 +63,14 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,md,css}": "pnpm format"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "arrowParens": "always",
+    "printWidth": 80
   }
 }
