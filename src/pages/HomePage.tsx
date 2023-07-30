@@ -1,3 +1,11 @@
+import { PageTitle } from 'components/PageTitle'
+
 export const HomePage = () => {
-  return <>This is home page</>
+  return (
+    <>
+      <PageTitle>Home Page</PageTitle>
+
+      <span>This is home page</span>
+    </>
+  )
 }
