@@ -1,11 +1,11 @@
 {
   "name": "todo-list",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "VITE_APP_VERSION=$npm_package_version vite",
+    "build": "tsc && VITE_APP_VERSION=$npm_package_version vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky install",
